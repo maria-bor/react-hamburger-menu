@@ -1,0 +1,35 @@
+/* #roundButton {
+    background-color: #96D9FF;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid #0065A6;
+    outline: none;
+    transition: all .2s cubic-bezier(0, 1.26, .8, 1.28)
+}
+
+#roundButton:hover {
+    background-color: #96D9FF;
+    cursor: pointer;
+    background-color: #003557;
+    transform: scale(1.2, 1.2)
+}
+
+#roundButton:active {
+    border-color: #003557;
+    background-color: #fff;
+} */
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
