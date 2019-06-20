@@ -5,7 +5,7 @@ import MenuContainer from './components/MenuContainer/MenuContainer'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <MenuContainer/>
       </div>
     );

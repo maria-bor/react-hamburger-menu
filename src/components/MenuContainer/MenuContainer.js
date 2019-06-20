@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './MenuContainer.css'
 import MenuButton from './../MenuButton/MenuButton'
 import Menu from './../Menu/Menu'
+import Main from './../Main/Main'
 
 class MenuContainer extends Component {
     constructor(props) {
@@ -25,13 +26,15 @@ class MenuContainer extends Component {
     }
 
     render() {
+        console.log('[MenuContainer.js] render')
+
         return (
             <div>
                 <MenuButton handleMouseDown={this.handleMouseDown} />
                 <Menu handleMouseDown={this.handleMouseDown}
                     menuVisibility={this.state.visible} />
                 <div>
-                    <p>There will be main content...</p>
+                    <Main />
                 </div>
             </div>
         )
